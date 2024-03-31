@@ -1,0 +1,17 @@
+{
+  "name": "cl-pure-render",
+  "version": "1.0.1",
+  "type": "module",
+  "main": "cl-pure-render.umd.js",
+  "module": "cl-pure-render.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.1"
+  }
+}
